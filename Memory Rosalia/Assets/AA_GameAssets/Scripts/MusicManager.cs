@@ -6,6 +6,8 @@ public class MusicManager : MonoBehaviour
 {
     FMOD.Studio.EventInstance instance;
 
+    [SerializeField] string song;
+
     void Start()
     {
 
@@ -14,7 +16,7 @@ public class MusicManager : MonoBehaviour
     public void playFragment(int ID)
     {
         instance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Frag" + ID + "_yoporti");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Frag" + ID + song);
         instance.start();
     }
 }

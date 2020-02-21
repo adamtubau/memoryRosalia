@@ -21,6 +21,12 @@ public class MemoryManager : MonoBehaviour
     }
     #endregion
 
+
+    #region Map
+    [SerializeField] string map;
+    public int sizeX, sizeY;
+    #endregion
+
     [SerializeField] Transform spawnPoint;
     [SerializeField] MusicManager musicManagerInstance;
 
@@ -48,8 +54,7 @@ public class MemoryManager : MonoBehaviour
     List<Token> passiveTokens = new List<Token>();
 
     public Card[,] cardMap;
-    [HideInInspector]
-    public int sizeX, sizeY;
+
 
     float xOffset = 105;
     float yOffset = 105;
@@ -63,16 +68,10 @@ public class MemoryManager : MonoBehaviour
         m_EventSystem = GetComponent<EventSystem>();
         #endregion
 
-        string map = "0114," +
-                        "2035," +
-                        "4235,;";
-
-        sizeX = 4;
-        sizeY = 3;
         cardMap = new Card[sizeX, sizeY];
 
         GenenerateMap(map);
-        RandomizeMap();
+        //RandomizeMap();
         StartCoroutine(turnManager());
     }
 
@@ -91,7 +90,7 @@ public class MemoryManager : MonoBehaviour
             {
                 int memoryIndex = (int)char.GetNumericValue(map[count]);
 
-                Card c = Instantiate(cardPrefab, new Vector2(i * xOffset, j * yOffset), cardPrefab.transform.rotation, transform);
+                Card c = Instantiate(cardPrefab, new Vector2(spawnPoint.position.x + i * xOffset, spawnPoint.position.y + j * yOffset), cardPrefab.transform.rotation, transform);
                 c.setCardInfo(cardInfos[memoryIndex]);
 
                 c.x = i-1;

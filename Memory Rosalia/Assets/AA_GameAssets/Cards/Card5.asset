@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e626272c92689429a95f5c16112bcb, type: 3}
   m_Name: Card5
   m_EditorClassIdentifier: 
-  tokenAbility: {fileID: 0}
+  tokenAbility: {fileID: 11400000, guid: d822e019b6adf2e459733697dac5c96c, type: 2}
   IDSong: 5
   image: {fileID: 0}

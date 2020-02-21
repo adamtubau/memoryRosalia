@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 2c3ae70e310d50846ac6e8f176b6bc0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7425040998994868936
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_0"
+  - first:
+      213: -4087628190202409525
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_1"
+  - first:
+      213: 2700882110478643334
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_2"
+  - first:
+      213: 2386867481333461834
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_3"
+  - first:
+      213: 8544589474467178630
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_4"
+  - first:
+      213: 2166105369147467827
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_5"
+  - first:
+      213: 7491547749121365373
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_6"
+  - first:
+      213: 3410860470116975294
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_7"
+  - first:
+      213: -4067723144834206113
+    second: "\u2014Pngtree\u2014set red game buttons with_5004166_8"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_0"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 802
+        width: 324
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835033c0d84f4f890800000000000000
+      internalID: -7425040998994868936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_1"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 802
+        width: 325
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdcc1571d3d547c0800000000000000
+      internalID: -4087628190202409525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_2"
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 806
+        width: 325
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680794738f57b7520800000000000000
+      internalID: 2700882110478643334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_3"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 447
+        width: 324
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43ffcef35bdf1120800000000000000
+      internalID: 2386867481333461834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_4"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 447
+        width: 325
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68868291bda749670800000000000000
+      internalID: 8544589474467178630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_5"
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 447
+        width: 325
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338e9125b5d8f0e10800000000000000
+      internalID: 2166105369147467827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_6"
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 90
+        width: 324
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7591446cf257f760800000000000000
+      internalID: 7491547749121365373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_7"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 90
+        width: 324
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb28ebba68fc55f20800000000000000
+      internalID: 3410860470116975294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set red game buttons with_5004166_8"
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 90
+        width: 324
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b58bf95b8c87c0800000000000000
+      internalID: -4067723144834206113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
