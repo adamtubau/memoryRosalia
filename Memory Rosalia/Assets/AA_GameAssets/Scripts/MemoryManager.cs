@@ -56,8 +56,8 @@ public class MemoryManager : MonoBehaviour
     public Card[,] cardMap;
 
 
-    float xOffset = 105;
-    float yOffset = 105;
+    float xOffset = 80;
+    float yOffset = 80;
 
     void Start()
     {
