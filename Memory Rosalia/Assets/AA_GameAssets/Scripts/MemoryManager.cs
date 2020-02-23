@@ -36,6 +36,9 @@ public class MemoryManager : MonoBehaviour
     [SerializeField] PlayerSpace playerSpace1;
     [SerializeField] PlayerSpace playerSpace2;
 
+    [SerializeField] GameObject win1;
+    [SerializeField] GameObject win2;
+
     #region Raycast UI Variables
     GraphicRaycaster m_Raycaster;
     PointerEventData m_PointerEventData;
@@ -336,30 +339,36 @@ public class MemoryManager : MonoBehaviour
 
                     
                     //Check if game has ended
-                    if(points1 + points2 == (sizeX*sizeY)/2)
+                    if((points1 + points2) == (cardMap.Length/2))
                     {
                         //There is no more cards to play
                         Debug.Log("Game end");
 
-                        if(points1 == points2)
-                        foreach (Token token in passiveTokens)
-                        {
-                            if (token.tokenAbility.tokenName == "Tie Break")
+                        if (points1 == points2)
+                            foreach (Token token in passiveTokens)
                             {
-                                token.gameObject.SetActive(false);
-                                passiveTokens.Remove(token);
+                                if (token.tokenAbility.tokenName == "Tie Break")
+                                {
+                                    token.gameObject.SetActive(false);
+                                    passiveTokens.Remove(token);
 
-                                Debug.Log("Player " + token.ownership + " wins");
-                                break;
+                                    if (token.ownership == 1)
+                                    {
+                                        win1.SetActive(true);
+                                    }
+                                    else
+                                        win2.SetActive(true);
+
+                                    break;
+                                }
                             }
-                        }
-                        else if(points1 > points2)
+                        else if (points1 > points2)
                         {
-                            Debug.Log("Player 1 wins");
+                            win1.SetActive(true);
                         }
                         else
                         {
-                            Debug.Log("Player 2 wins");
+                            win2.SetActive(true);
                         }
 
                     }                  

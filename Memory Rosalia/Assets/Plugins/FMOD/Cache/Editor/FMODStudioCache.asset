@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/Frag8_millonaria
   guid: 9c70f8b17f96cf44944b95326812e815
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -82,7 +82,7 @@ MonoBehaviour:
   Path: event:/Frag1_yoporti
   guid: ebecb3e9afb5e74d836b8dafc175bc73
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -127,7 +127,7 @@ MonoBehaviour:
   Path: event:/Frag8_conaltura
   guid: a0a4ae871f921b48ba2eaf6bc145fa2b
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
   Path: event:/Frag6_millonaria
   guid: e445521d4c361444a3cbac7cd1eaac28
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -279,7 +279,7 @@ MonoBehaviour:
   Path: event:/Frag7_conaltura
   guid: 5ed238c00f6c8447aec02ecac7f5008a
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
   Path: event:/Frag9_millonaria
   guid: f8fb5ae2a993544a8d6dd8046b89711a
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -413,7 +413,7 @@ MonoBehaviour:
   Path: event:/Frag1_millonaria
   guid: 5925982ac49f6c408e6a662954cbf0be
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -436,7 +436,7 @@ MonoBehaviour:
   Path: event:/Frag3_yoporti
   guid: 8407cfc47b690345b1bed149aeb0e6d2
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -459,7 +459,7 @@ MonoBehaviour:
   Path: event:/Frag1_conaltura
   guid: f14271dcdb199044a4dec1e9979f2696
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -584,7 +584,7 @@ MonoBehaviour:
   Path: event:/Frag10_millonaria
   guid: 715018b4a544244090d339ce232c4a38
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -629,7 +629,7 @@ MonoBehaviour:
   Path: event:/Frag6_conaltura
   guid: 6c677432db1aa0489e597a29f79a8743
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -692,7 +692,7 @@ MonoBehaviour:
   Path: event:/Frag5_millonaria
   guid: 57e2a134e8a2fd45ac2d2e123c270be3
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -737,7 +737,7 @@ MonoBehaviour:
   Path: event:/Frag4_conaltura
   guid: 5bf1d95e36af084fb4467e1992ee28de
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD_MemoryRosalia/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637179864888212760
+  lastModified: 637180719550272146
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -779,7 +779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -193203996038950928}
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   EditorEvents:
   - {fileID: 1968538943731753650}
   - {fileID: -1403602264274494677}
@@ -807,10 +807,10 @@ MonoBehaviour:
   - {fileID: 8960360139430788584}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   StringsBanks:
   - {fileID: -193203996038950928}
-  stringsBankWriteTime: 637179864888212760
+  stringsBankWriteTime: 637180719550272146
   cacheVersion: 3
 --- !u!114 &105277617246987681
 MonoBehaviour:
@@ -845,7 +845,7 @@ MonoBehaviour:
   Path: event:/Frag3_conaltura
   guid: e15f52e816faa046bb45e8ae995dc1cc
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -912,7 +912,7 @@ MonoBehaviour:
   Path: event:/Frag2_conaltura
   guid: c323355e259d854a9b0362bd67182b37
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   Path: event:/Frag6_yoporti
   guid: 94b49ad507aa2c4a84fb65a97c43f1cc
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   Path: event:/Frag2_millonaria
   guid: 075b3e4ea2dfd643b10c3208893b75e6
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1048,7 +1048,7 @@ MonoBehaviour:
   Path: event:/Frag5_yoporti
   guid: bcc26eb23a8c0f4f98c65cf562e234f0
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   Path: event:/Frag7_millonaria
   guid: e9688125157d6b4e911d0302f4dcb47d
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1138,7 +1138,7 @@ MonoBehaviour:
   Path: event:/Frag5_conaltura
   guid: d4f19b65810a7c41a2c3934fc6e28928
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1207,7 +1207,7 @@ MonoBehaviour:
   Path: event:/Frag2_yoporti
   guid: a5fdab62d7cb1248bef2468cfdfe3f13
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1238,6 +1238,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2900
+--- !u!114 &5054109936623812593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_MemoryRosalia/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637180719550252204
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5312096817428848648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,7 +1335,7 @@ MonoBehaviour:
   lastModified: 637179864890102726
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &5688943600371133532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,7 +1351,7 @@ MonoBehaviour:
   Path: event:/Frag4_yoporti
   guid: 6cb8bed01d914848aa088030b3e2b414
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1506,7 +1524,7 @@ MonoBehaviour:
   Path: event:/Frag3_millonaria
   guid: 7b0264b12dc6074da8f392581ed3b406
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1551,7 +1569,7 @@ MonoBehaviour:
   Path: event:/Frag4_millonaria
   guid: fc9b2b0f20bbc349a63841746c8be331
   Banks:
-  - {fileID: 5346008736987886066}
+  - {fileID: 5054109936623812593}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
