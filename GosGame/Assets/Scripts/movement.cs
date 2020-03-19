@@ -44,11 +44,11 @@ public class movement : MonoBehaviour
         moveVertical = Input.GetAxisRaw("Vertical") * speed;
 
         Vector3 moveH = transform.right * moveHorizontal;
-        Vector3 moveV = transform.forward * moveVertical;
+        Vector3 moveV = transform.up * moveVertical;
 
         if (canMove)
         {
-            pj.SimpleMove(moveV + moveH);
+            pj.SimpleMove(-moveV + moveH);
             Inputs();
         }
 
