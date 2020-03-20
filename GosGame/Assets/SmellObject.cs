@@ -6,4 +6,10 @@ public class SmellObject : MonoBehaviour
 {
     public Color smellColor;
     public int smellRange;
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = smellColor;
+        Gizmos.DrawWireSphere(transform.position, smellRange);
+    }
 }

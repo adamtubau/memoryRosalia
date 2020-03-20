@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SmellDetector : MonoBehaviour
 {
-    Color smellColor;
+    public Color smellColor;
     [SerializeField] Image canvasSmellIndicator;
 
     public Transform smellObjectsParent;
@@ -44,28 +44,45 @@ public class SmellDetector : MonoBehaviour
 
     public void CalculateSmellColor()
     {
-        smellColor = Vector4.zero;
+        //smellColor = Color.white;
 
         int smellNum = 0;
         foreach(SmellObject smellO in smellObjects)
         {
-            float dist = Vector3.Distance(transform.position, smellO.transform.position); 
+            float dist = Vector3.Distance(transform.position, smellO.transform.position);
 
-            if(dist < smellO.smellRange)
+            if (dist < smellO.smellRange)
             {
-                float a = Remap(dist, 1, smellO.smellRange, 1, 0);
+                float a = Remap(dist, 1, smellO.smellRange, 1, 0.1f);
+
+                //Manera 0
                 //float r = smellO.smellColor.r * a;
                 //float b = smellO.smellColor.g * a;
                 //float g = smellO.smellColor.b * a;
-
                 //smellColor += new Color(r, b, g, 0.8f);
-                smellColor += new Color(smellO.smellColor.r, smellO.smellColor.g, smellO.smellColor.b, a);
-                //Debug.Log(Remap(dist, 1, smellO.smellRange, 1, 0));
-                Debug.Log(smellO.smellColor.b);
-                smellNum++;            }
+
+                //Manera 1
+                //smellColor += new Color(smellO.smellColor.r, smellO.smellColor.g, smellO.smellColor.b, a);
+
+                //Manera 2
+                //smellColor = Color.Lerp(smellColor, new Color(smellO.smellColor.r, smellO.smellColor.g, smellO.smellColor.b, a), 0.5f);
+
+                //Manera 3 - Definitiva
+                if (smellNum == 0)
+                    smellColor = new Color(smellO.smellColor.r * a, smellO.smellColor.g * a, smellO.smellColor.b * a, a);
+
+                else
+                    smellColor = new Color(smellColor.r + smellO.smellColor.r * a, smellColor.g + smellO.smellColor.g * a, smellColor.b + smellO.smellColor.b * a, (smellColor.a + a));
+
+                smellNum++;   
+            }
+        
         }
-       
-        canvasSmellIndicator.color = new Vector4(smellColor.r/smellNum, smellColor.g/smellNum, smellColor.b/smellNum, smellColor.a);
+
+        //Manera 1
+        //canvasSmellIndicator.color = new Vector4(smellColor.r/smellNum, smellColor.g/smellNum, smellColor.b/smellNum, smellColor.a);
+
+        canvasSmellIndicator.color = smellColor;
     }
 
     public float Remap(float value, float from1, float to1, float from2, float to2)
