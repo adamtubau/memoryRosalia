@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/OscarScene.unity
+=======
+- path: Assets/Scenes/Nil Scene.unity
+>>>>>>> smell_color_mechanic
   isLoaded: 1
   isActive: 1
   isSubScene: 0
