@@ -10,11 +10,12 @@ public class movement : MonoBehaviour
     Vector3 direction = Vector3.zero;
 
     private CharacterController pj;
+
+    [SerializeField]
     float normalSpeed = 6.0f;
     float speed;
 
     bool canMove = true;
-    bool doOnce = true;
 
     static float maxSprintBar = 200.0f;
     float sprintBar = maxSprintBar;
@@ -68,26 +69,7 @@ public class movement : MonoBehaviour
             speed = normalSpeed;
             if (sprintBar < 200)
                 sprintBar++;
-        }
-
-        //crouch
-        if (Input.GetKey(KeyCode.C))
-        {
-            pj.height = 1.0f;
-            if (doOnce)
-            {              
-                speed = 4.0f;
-            }
-        }
-        else
-        {
-            pj.height = 2.0f;
-            if (doOnce)
-            {
-                speed = normalSpeed;
-            }
-        }
-        doOnce = false;
+        }     
     }
   
     private void OnTriggerEnter(Collider col)
