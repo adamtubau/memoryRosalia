@@ -16,9 +16,10 @@ public class SmellDetector : MonoBehaviour
     bool isSmellIndicatorHudActivated;
 
     void Start()
-    {
+    {       
         smellObjects = smellObjectsParent.GetComponentsInChildren<SmellObject>();
         hudInstance = HUD_Manager.getInstance();
+        CalculateSmellColor();
     }
 
     void Update()
